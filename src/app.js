@@ -29,7 +29,7 @@ app.get("", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "Alienwear Setup",
+    title: "Aravind Iyer",
     name: "Andrew Sya"
   });
 });
